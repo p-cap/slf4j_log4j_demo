@@ -88,8 +88,8 @@ log4j.appender.stdout.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1
 5. Run the application
 
 ## Case in point
-When logging classes that have PII, it is important to understand that when logging the class,
-it does not directly log the PII. The attribute needs to be called via getter to expose PII
+When logging classes that have PII attribute, it is important to understand that when logging the class,
+it does not directly log the PII onto the console. The attribute needs to be called via getter to expose PII
 
 #### Reference:
 https://examples.javacodegeeks.com/enterprise-java/slf4j/slf4j-configuration-file-example/
